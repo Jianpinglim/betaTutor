@@ -1,0 +1,82 @@
+/* Global styles */
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@500;600&family=Inter:wght@500;600&family=Open+Sans:wght@600&family=Poppins:wght@500;600&family=Roboto:wght@500;700&display=swap');
+
+* {
+    font-family: Poppins;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+/* Card styles */
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* Center cards horizontally */
+    gap: 20px;
+    /* Space between cards */
+}
+
+.card {
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.topic {
+    background-color: #8867f2;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+/* Button styles */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #8227f2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Form styles */
+#question-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#question-form label {
+    margin-top: 10px;
+}
+
+#question-form input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#question-form button {
+    margin-top: 15px;
+}
